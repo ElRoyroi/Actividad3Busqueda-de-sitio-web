@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de productos</title>
+    <!-- Enlace a DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <!-- Tu propio archivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/mercadolibre.png" alt="Mercado Libre">
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Administración de productos</h2>
+        <table id="productos" class="display">
+            <thead>
+                <tr>
+                    <th>Imagen/Producto</th>
+                    <th>Nombre del producto</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se insertarán los datos dinámicamente con JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Incluye jQuery y DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <!-- Tu propio archivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
